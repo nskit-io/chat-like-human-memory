@@ -10,12 +10,12 @@
 
 ## Why This Exists
 
-LLM characters today are stateless. They forget, they don't grow, and they don't feel. Memory libraries exist (Letta, Mem0), but none integrate **emotion + personality evolution + memory** as a single coherent system.
+LLM characters today are stateless. They forget, they don't grow, and they don't feel. Memory libraries exist (Letta, Mem0), but few integrate **emotion + personality evolution + memory** as a single coherent system.
 
 This engine gives AI characters:
 - **Emotions** that shift naturally during conversation and decay back to baseline (9 dimensions including curiosity)
 - **MBTI Spectrum** that evolves on a continuous 0-100 scale with probabilistic expression — not fixed types
-- **Personality** that evolves over weeks of interaction — with a novel decay/commit mechanism
+- **Personality** that evolves over weeks of interaction — with a decay/commit mechanism
 - **Memory** that compacts from raw messages to summaries to keywords, like human memory fading
 - **User Understanding** — the avatar infers YOUR personality from conversation patterns and adjusts its style
 
@@ -63,8 +63,6 @@ Not sentiment analysis. Not classification. A **continuous emotional state** tha
 - Each message stores an `emotion_snapshot` for retrospective analysis
 
 ## Persona Evolution — Decay/Commit
-
-**No prior art exists for this mechanism in open source.**
 
 8 personality traits evolve through a 3-stage pipeline:
 
