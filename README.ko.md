@@ -4,7 +4,7 @@
 
 **9차원 감정 추적 + MBTI 연속 스펙트럼 + decay/commit 성격 진화 + 3단계 기억 압축 + 사용자 성격 추론 — AI 캐릭터를 위한 통합 인지 엔진.**
 
-> [NVatar](https://github.com/nskit-io/nvatar) 프로젝트에서 추출 — 로컬 하드웨어에서 완전히 구동되는 AI 아바타 채팅 시스템.
+> [NVatar](https://github.com/nskit-io/nvatar) 프로젝트에서 추출 — 로컬 우선(성격은 로컬 모델, 사실은 클라우드 층)으로 설계된 AI 아바타 채팅 시스템.
 
 ---
 
@@ -134,13 +134,13 @@ L3 (키워드) → 장기 단편, 불확실하게 언급
 
 ## 데이터베이스 스키마
 
-전체 라이프사이클을 위한 11개 테이블 — MBTI 스펙트럼 및 진화 로그 포함 (스키마는 문의 시 제공)
+전체 라이프사이클을 다루는 전용 스키마 — MBTI 스펙트럼 및 진화 로그 포함 (스키마는 문의 시 제공)
 
 ## 관련 프로젝트
 
 NVatar AI 아바타 시스템의 다른 오픈소스 구성 요소:
 
-- [**라이브 데모 체험**](https://nskit-io.github.io/nvatar-demo/) — 브라우저에서 NVatar 체험
+- [**라이브 데모**](https://nskit-io.github.io/nvatar-demo/) — 데모 서버 점검으로 라이브 데모가 일시 중단되었습니다. 소스([nvatar-demo](https://github.com/nskit-io/nvatar-demo))에서 직접 실행할 수 있습니다.
 
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — Gemma 캐릭터 AI 프롬프트 엔지니어링 패턴
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — 성격은 로컬 Gemma, 팩트는 클라우드 Claude
@@ -150,7 +150,7 @@ NVatar AI 아바타 시스템의 다른 오픈소스 구성 요소:
 
 ## 라이선스
 
-MIT License - [LICENSE](LICENSE) 참조
+CC BY-NC-SA 4.0 — [LICENSE](LICENSE) 참조
 
 ---
 

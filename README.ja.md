@@ -4,7 +4,7 @@
 
 **9次元感情トラッキング + MBTI連続スペクトラム + decay/commitによる性格進化 + 3層記憶圧縮 + ユーザー性格推論 — AIキャラクターのための統合コグニティブエンジン。**
 
-> [NVatar](https://github.com/nskit-io/nvatar)プロジェクトより — ローカルハードウェアで完全に動作するAIアバターチャットシステム。
+> [NVatar](https://github.com/nskit-io/nvatar)プロジェクトより — ローカルファースト（性格はローカルモデル、事実はクラウド層）で設計されたAIアバターチャットシステム。
 
 ---
 
@@ -122,13 +122,13 @@ MBTI進化は記憶圧縮時に発生します：
 
 ## データベーススキーマ
 
-フルライフサイクルのための11テーブル — MBTIスペクトラムと進化ログを含む（スキーマは問い合わせ時に提供）
+フルライフサイクルをカバーする専用スキーマ — MBTIスペクトラムと進化ログを含む（スキーマは問い合わせ時に提供）
 
 ## 関連プロジェクト
 
 NVatar AIアバターシステムの他のオープンソースコンポーネント：
 
-- [**ライブデモを体験**](https://nskit-io.github.io/nvatar-demo/) — ブラウザでNVatarを体験
+- [**ライブデモ**](https://nskit-io.github.io/nvatar-demo/) — デモサーバーのメンテナンスのため、ライブデモは一時停止中です。ソース（[nvatar-demo](https://github.com/nskit-io/nvatar-demo)）から実行することはできます。
 
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — GemmaキャラクターAIプロンプトエンジニアリング
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — 性格はローカルGemma、ファクトはクラウドClaude
@@ -138,7 +138,7 @@ NVatar AIアバターシステムの他のオープンソースコンポーネ�
 
 ## ライセンス
 
-MIT License - [LICENSE](LICENSE)参照
+CC BY-NC-SA 4.0 — [LICENSE](LICENSE)参照
 
 ---
 

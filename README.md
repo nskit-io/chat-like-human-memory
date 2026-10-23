@@ -4,7 +4,7 @@
 
 **9-dimensional emotion tracking + MBTI continuous spectrum + personality evolution with decay/commit + 3-tier memory with compaction + user personality inference — a unified cognitive engine for stateful AI characters.**
 
-> From the [NVatar](https://github.com/nskit-io/nvatar) project — an AI avatar chat system running entirely on local hardware.
+> From the [NVatar](https://github.com/nskit-io/nvatar) project — an AI avatar chat system built local-first (personality on a local model, facts via a cloud layer).
 
 ---
 
@@ -162,13 +162,13 @@ L3 (Keywords) → Long-term fragments, spoken with uncertainty
 
 ## Database Schema
 
-11 tables designed for the full lifecycle — including MBTI spectrum and evolution logs (schema available on request).
+A dedicated schema covers the full lifecycle — including MBTI spectrum and evolution logs (schema available on request).
 
 ## Related Projects
 
 Other open-source components from the NVatar AI avatar system:
 
-- [**Try Live Demo**](https://nskit-io.github.io/nvatar-demo/) — Experience NVatar in your browser
+- [**Live Demo**](https://nskit-io.github.io/nvatar-demo/) — Live demo is temporarily offline while the demo server is under maintenance. You can still run it from source ([nvatar-demo](https://github.com/nskit-io/nvatar-demo)).
 
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — Prompt engineering patterns for Gemma character AI
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — Local Gemma for personality, cloud Claude for facts
