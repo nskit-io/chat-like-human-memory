@@ -128,12 +128,12 @@ MBTI進化は記憶圧縮時に発生します：
 
 NVatar AIアバターシステムの他のオープンソースコンポーネント：
 
-- [**ライブデモ**](https://nskit-io.github.io/nvatar-demo/) — デモサーバーのメンテナンスのため、ライブデモは一時停止中です。ソース（[nvatar-demo](https://github.com/nskit-io/nvatar-demo)）から実行することはできます。
+- [**ライブデモ**](https://nskit-io.github.io/nvatar-demo/) — デモサーバーのメンテナンスのため、ライブデモは一時停止中です。ソース（[nvatar-demo](https://github.com/nskit-io/nvatar-demo)）からは引き続き実行できます。
 
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — GemmaキャラクターAIプロンプトエンジニアリング
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — 性格はローカルGemma、ファクトはクラウドClaude
 - [**vrm-studio**](https://github.com/nskit-io/vrm-studio) — Three.js + WebSocket 3D VRMアバターチャットルーム
-- [**CSW**](https://github.com/nskit-io/csw) — クラウドレイヤーを動かすClaude Subscription Worker
+- [**CSW**](https://github.com/nskit-io/csw) — Claude Subscription Worker、このR&Dプロトタイプのクラウドレイヤーに使われた個人向け開発者ツール
 - [**portable-ai-companion**](https://github.com/nskit-io/portable-ai-companion) — クロスアプリフランチャイズアーキテクチャ
 
 ## ライセンス

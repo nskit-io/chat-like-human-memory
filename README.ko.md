@@ -145,7 +145,7 @@ NVatar AI 아바타 시스템의 다른 오픈소스 구성 요소:
 - [**avatar-chat**](https://github.com/nskit-io/avatar-chat) — Gemma 캐릭터 AI 프롬프트 엔지니어링 패턴
 - [**customize-local-llm**](https://github.com/nskit-io/customize-local-llm) — 성격은 로컬 Gemma, 팩트는 클라우드 Claude
 - [**vrm-studio**](https://github.com/nskit-io/vrm-studio) — Three.js + WebSocket 3D VRM 아바타 채팅방
-- [**CSW**](https://github.com/nskit-io/csw) — 클라우드 레이어를 구동하는 Claude Subscription Worker
+- [**CSW**](https://github.com/nskit-io/csw) — Claude Subscription Worker, 이 R&D 프로토타입의 클라우드 레이어에 쓰인 개인 개발자 도구
 - [**portable-ai-companion**](https://github.com/nskit-io/portable-ai-companion) — 크로스앱 프랜차이즈 아키텍처
 
 ## 라이선스
